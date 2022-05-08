@@ -1,0 +1,25 @@
+ boat_cni | boat_country |     boat_name      
+----------+--------------+--------------------
+        1 | PRT          | Tomas Miguel boat
+        2 | PRT          | Joao Rendeiro boat
+        2 | ZAF          | boat
+(3 rows)
+
+ sailor_country | sailor_id | person_id | person_name  | person_country 
+----------------+-----------+-----------+--------------+----------------
+ PRT            |         1 |         1 | Tomas Miguel | PRT
+ ZAF            |         1 |         1 | Joana Miguel | ZAF
+(2 rows)
+
+ res_boat_country | res_boat_cni | res_sailor_country | res_sailor_id | res_schdl_start | res_schdl_end 
+------------------+--------------+--------------------+---------------+-----------------+---------------
+ PRT              |            1 | PRT                |             1 | 1990-03-02      | 2000-03-02
+ PRT              |            2 | ZAF                |             1 | 2021-01-01      | 2021-12-11
+ ZAF              |            2 | ZWE                |             2 | 1990-03-02      | 2000-03-02
+(3 rows)
+
+ boat_name | boat_cni | boat_country 
+-----------+----------+--------------
+ boat      |        2 | ZAF
+(1 row)
+

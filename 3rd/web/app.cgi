@@ -1,0 +1,13 @@
+#!/usr/bin/python3
+print('Content-type:text/html\n\n')
+print('<html>')
+print('<head>')
+print('<title>Lab 09</title>')
+print('</head>')
+print('<body>')
+print('<p><a href="owner.cgi">Create/Delete owner</a></p>')
+print('<p><a href="sailor.cgi">Create/Delete sailor</a></p>')
+print('<p><a href="boat.cgi">Create/Delete boat</a></p>')
+print('<p><a href="res.cgi">Create/Delete reservation</a></p>')
+print('</body>')
+print('</html>')
